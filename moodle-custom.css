@@ -1,0 +1,164 @@
+/*
+
+    This is the custom CSS for the Moodle site.
+    You add it here: https://jatc669.wccnet.edu/admin/settings.php?section=additionalhtml
+    Dont just paste over everything in the textarea as there is other snippits Ive added there
+    
+*/
+
+
+<style>
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #444;
+}
+
+div.logo {
+    height: 100px;
+} 
+
+.coursebox > .info > .coursename a {
+    display: block;
+    background-image: none;
+    background-repeat: no-repeat;
+    padding-left: 0;
+    background-position: left .2em;
+}
+
+.coursebox .content .summary, .coursebox .content .coursecat {
+    float: left;
+    width: 96%;
+}
+
+.que h3.no {
+    font-size: 1em;
+}
+
+.que span.qno {
+    font-size: 1em;
+}
+
+.que .info {
+    margin-bottom: .25em;
+}
+
+#page-mod-quiz-attempt .submitbtns .mod_quiz-next-nav, #page-mod-quiz-review .submitbtns .mod_quiz-next-nav {
+    text-transform: uppercase;
+    padding: .3em .6em;
+    font-weight: bold;
+    border-radius: .3em;
+    text-decoration: none;
+    border: 3px solid #0f75bc;
+    color: #0f75bc;
+}
+
+button, input.form-submit, input[type="button"], input[type="submit"], input[type="reset"] {
+    text-transform: uppercase;
+    padding: .3em .6em;
+    font-weight: bold;
+    border-radius: .3em;
+    text-decoration: none;
+    border: 3px solid #0f75bc;
+    color: #0f75bc;
+}
+
+
+#page-mod-quiz-attempt .submitbtns, #page-mod-quiz-review .submitbtns {
+    padding-bottom: 1.5em;
+    padding-top: 0;
+}
+/*
+.block_wcc_request_final, .block_student_progress{
+    background-color: #0f75bc;
+}
+*/
+.block {
+    padding: 0 0 8px 0;
+}
+
+.block .header h2 {
+    color: #fff;
+    background-color: #0f75bc;
+    margin-bottom: 8px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.19);
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.need-support {
+    color: #0f75bc;
+    margin-bottom: 8px;
+    font-size: 24px;
+}
+
+.block_wcc_request_final .header h2, .block_student_progress .header h2 {
+    color: #fff;
+}
+
+ .block_student_progress table {
+     font-size: 14px;
+ }
+
+.block_student_progress table:nth-child(1){
+     font-weight: bold;
+ }
+
+ .block_student_progress table td:nth-child(2){
+     font-weight: bold;
+     font-size: 18px;
+ }
+
+ .signuppanel h2 {
+     display: none;
+ }
+
+#page-login-index .breadcrumb {
+    display: none;
+}
+
+/*
+.block_wcc_request_final .content .footer a, .block_student_progress .content .footer a {
+    color: #0f75bc;
+    background-color: #fff;
+    padding: .2em .4em;
+    border-radius: .3em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+*/
+
+.navbar-inner {
+    background-image: none;
+    background-color: #333;
+}
+
+.navbar .nav > li > a {
+    color: #eee;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: none;
+}
+
+.navbar .nav > li > a:hover {
+    color: #bbb;
+}
+
+.navbar .nav > li > a:active, .navbar .nav > li > a:focus {
+    color: #0f75bc;
+}
+
+.navbar .brand {
+    text-shadow: none;
+}
+
+.navbar-inner .btn {
+ background: none;
+ border-radius: 0;
+}
+
+.navbar-inner .btn:hover {
+ background: none;   
+}
+
+</style>
